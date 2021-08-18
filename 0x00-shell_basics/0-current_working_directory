@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "$(pwd)/$line"
+#! /bin/sh
+echo "$(cd "$(dirname "$1")"; pwd)/$(basename "$1")"
