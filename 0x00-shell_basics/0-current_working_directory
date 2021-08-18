@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/correction/4476259025732391439549869127557162731243_2/205/1951/0x00-shell_basics
+abspath () { case "$1" in /*)printf "%s\n" "$1";; *)printf "%s\n" "$PWD/$1";; esac; }
